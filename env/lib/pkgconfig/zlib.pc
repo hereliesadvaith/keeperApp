@@ -1,0 +1,13 @@
+prefix=/home/advaith/Documents/projects/03_keeperApp/backend/env
+exec_prefix=/home/advaith/Documents/projects/03_keeperApp/backend/env
+libdir=/home/advaith/Documents/projects/03_keeperApp/backend/env/lib
+sharedlibdir=/home/advaith/Documents/projects/03_keeperApp/backend/env/lib
+includedir=/home/advaith/Documents/projects/03_keeperApp/backend/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -2,8 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { BsPlusLg } from "react-icons/bs";
 
-const apiURL = "http://127.0.0.1:8000"
-
+const apiURL = "https://keeperapp-ckg1.onrender.com"
 
 const NewNote = () => {
     const [title, setTitle] = useState();

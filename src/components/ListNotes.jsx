@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { AiFillDelete } from "react-icons/ai"
 
-const apiURL = "http://127.0.0.1:8000"
+const apiURL = "https://keeperapp-ckg1.onrender.com"
 
 function ListNotes() {
 
